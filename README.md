@@ -27,33 +27,3 @@ PASS  tests/orderService.test.js
 
 Test Suites: 3 passed, 3 total
 Tests:       6 passed, 6 total
-
----
-
-**# 🧪 Node.js de Jest ile Mikroservislerin Testi**
-
-**Test Özellikleri**
-
--📦 Kullanıcı, Ürün ve Sipariş için ayrı servisler
--🌐 API Gateway ile merkezi yönlendirme
--🧪 Jest ve Supertest ile birim test desteği
--🔄 Controller + Router yapısı ile modüler mimari
--⚡ Hafif, hızlı ve başlangıç seviyesine uygun yapı
-
-**Test Özeti**
-
--npm test
-
-PASS  tests/userService.test.js
-PASS  tests/productService.test.js
-PASS  tests/orderService.test.js
-
-Test Suites: 3 başarılı, 3 toplam
-Testler:     6 başarılı, 6 toplam
-
-**Kullanılan Teknolojiler**
-
-**Backend:** Node.js + Express.js
-**HTTP İstekleri:** Axios
-**Test:** Jest + Supertest
-**Mimari:** Mikroservis + API Gateway
